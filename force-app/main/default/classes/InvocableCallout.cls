@@ -3,7 +3,7 @@
  * @authorMedium: https://medium.com/@munawirrahman
  * @Description: Callout with Invocable Method
  * @Inputs:
- 		* Method ==> (GET, POST, PATCH, PUT, DELETE, TRACE, CONNECT, HEAD, OPTIONS)
+ 	* Method ==> (GET, POST, PATCH, PUT, DELETE, TRACE, CONNECT, HEAD, OPTIONS)
         * Endpoint ==> Endpoint (and Query String), support named credential
         * Body ==> Request Body
         * Timeout ==> Request Timeout in millisecond
