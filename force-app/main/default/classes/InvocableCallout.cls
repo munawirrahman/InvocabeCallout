@@ -11,11 +11,11 @@
         * BodyAsBlob ==> Convert Body to Blob Type
         * Compressed_gzip ==> Compressed Body to gzip
  * @Outputs:
-		* Status ==> Status Response in text
-		* Status_code ==> Status Response in code
-		* Body ==> Response Body
-		* CollectionOfHeaders ==> Response headers in List, example: [{"key":"Content-Type","value":"application/json"},{"key":"Accept","value":"*\*"}]
-		* Error Message ==> Error Message if there's something wrong with callout
+	* Status ==> Status Response in text
+	* Status_code ==> Status Response in code
+	* Body ==> Response Body
+	* CollectionOfHeaders ==> Response headers in List, example: [{"key":"Content-Type","value":"application/json"},{"key":"Accept","value":"*\*"}]
+	* Error Message ==> Error Message if there's something wrong with callout
  */
 public class InvocableCallout {
     
