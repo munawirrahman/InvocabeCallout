@@ -149,8 +149,8 @@ public class InvocableCallout {
         String[] ListHeaders = new String[]{};
         for (String responseHeaderKey:responseHeaderKeys){
             String responseHeaderValue = res.getHeader(responseHeaderKey);
-            String singleHeader = '{"key": "'+responseHeaderKey+',"value": '+responseHeaderValue+'}';
-            system.debug('catchHeader '+'{"key": "'+responseHeaderKey+',"value": '+responseHeaderValue+'}');
+            String singleHeader = '{"key": "'+responseHeaderKey+'","value": "'+responseHeaderValue+'"}';
+            system.debug('catchHeader '+'{"key": "'+responseHeaderKey+'","value": "'+responseHeaderValue+'"}');
             ListHeaders.add(singleHeader);
         }
         return ListHeaders;
